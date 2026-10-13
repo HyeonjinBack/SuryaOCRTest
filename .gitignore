@@ -1,0 +1,11 @@
+.build/
+build/
+DerivedData/
+Vendor/llama.xcframework/
+Models/*.gguf
+Models/*.partial
+Models/*.download
+.swiftpm/
+*.xcuserstate
+xcuserdata/
+.DS_Store

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "llama_cpp": {
+    "tag": "b11429",
+    "commit": "d81235049384534c167caea52b85a694f6103d14",
+    "archive": {
+      "path": ".build/llama-b11429-xcframework.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11429/llama-b11429-xcframework.zip",
+      "size": 61992495,
+      "sha256": "e26a6a0a813f5760fe45834ce239d5b525e4e2442d4fd017221d9f0438383174"
+    },
+    "archive_framework_path": "build-apple/llama.xcframework",
+    "destination": "Vendor/llama.xcframework"
+  },
+  "surya": {
+    "source_commit": "a2363d3311773a2b6145a40458043211c50c52f4",
+    "model_repository": "datalab-to/surya-ocr-2-gguf",
+    "model_revision": "6a3a4c30e5e74446d4f8b6afd05b2f2da970f470",
+    "files": [
+      {
+        "path": "Models/surya-2.gguf",
+        "url": "https://huggingface.co/datalab-to/surya-ocr-2-gguf/resolve/6a3a4c30e5e74446d4f8b6afd05b2f2da970f470/surya-2.gguf",
+        "size": 1266400864,
+        "sha256": "1f18abe17b1ed8b4e47ee9b1ad0e274c93daf5efbb6b29a04ff1712e37051e05"
+      },
+      {
+        "path": "Models/surya-2-mmproj.gguf",
+        "url": "https://huggingface.co/datalab-to/surya-ocr-2-gguf/resolve/6a3a4c30e5e74446d4f8b6afd05b2f2da970f470/surya-2-mmproj.gguf",
+        "size": 204986688,
+        "sha256": "98c0563673b1657ff6d021d1e5f04af06cbf61bb40c63ac613e8bb71b42fb2c0"
+      }
+    ]
+  },
+  "licenses": [
+    {
+      "path": "Resources/Licenses/llama.cpp-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/d81235049384534c167caea52b85a694f6103d14/LICENSE",
+      "size": 1078,
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "path": "Resources/Licenses/Surya-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/datalab-to/surya/a2363d3311773a2b6145a40458043211c50c52f4/LICENSE",
+      "size": 9135,
+      "sha256": "5228cdd1e10f251cfb4e1644f341e88c204129e8a2c64573c256d448cb6504ad"
+    },
+    {
+      "path": "Resources/Licenses/Surya-MODEL_LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/datalab-to/surya/a2363d3311773a2b6145a40458043211c50c52f4/MODEL_LICENSE",
+      "size": 14726,
+      "sha256": "636dfb8eb19efc5835ed6efb878f8b694a93f028c715d2547d831e2a55440276"
+    }
+  ]
+}

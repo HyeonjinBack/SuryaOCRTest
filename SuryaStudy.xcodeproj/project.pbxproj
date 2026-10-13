@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B57680E3EB14D2867D1D39D /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 0E7C0F0638203F0DEB40C1EA /* Models */; };
+		1EEFA08A1A753672868B8548 /* PDFRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A602D521164A5C77440DE /* PDFRendererTests.swift */; };
+		2B025ED0ABAD735D8B928A0C /* Licenses in Resources */ = {isa = PBXBuildFile; fileRef = 4B2D07D23C9E65E6CAE69C4A /* Licenses */; };
+		2DD0CD07F7DD7FCCDAC5F894 /* SampleDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F07FA5494A80DCD8F0D783E /* SampleDocument.swift */; };
+		2FE830A53B6D2345968F70B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24347C2AE1890D3194C6AD99 /* Cocoa.framework */; };
+		33CDBA9F2738767D17C72C26 /* SuryaStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380DE5F3E44488083EAD7288 /* SuryaStudyApp.swift */; };
+		4756AEFB2F8B7481CCEFAEC7 /* llama.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46DC320041F3A213087AA997 /* llama.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4998F1C43F7D39F12FC73E7B /* llama.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DC320041F3A213087AA997 /* llama.xcframework */; };
+		4EDCAA255BCFA0FF41E64E4E /* SuryaBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 460F3587E379CFAB190405A0 /* SuryaBridge.cpp */; };
+		6B12BB5E8E84807F2A0E980E /* NativeOCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631191BEF9AED0360E050727 /* NativeOCRService.swift */; };
+		97B4F697A4A48F2E9EE96FA9 /* PDFReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66B80B4BC632837F500DABF /* PDFReaderView.swift */; };
+		9D6D9C0048870D2A7AAB9EBE /* SuryaHTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B087A8113362BB0014676DA5 /* SuryaHTMLParser.swift */; };
+		B5D47A6E3EA749373688BE77 /* PDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F01967383EA4849F36128A0 /* PDFRenderer.swift */; };
+		BCE0D3017BF3CA0752A854F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE729308C953655C8302474 /* ContentView.swift */; };
+		C34D1155684716F2F06411D3 /* OCRModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96F1E8389BF72E0FC1AA5C6 /* OCRModels.swift */; };
+		C5B3683F9A5DA7B2A1E902D1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24347C2AE1890D3194C6AD99 /* Cocoa.framework */; };
+		D1E73688070355FCBEC68D73 /* StudyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AD63EC7A3BE7E84E8BD1A /* StudyStore.swift */; };
+		EA594A2E9391A13212841A50 /* SuryaHTMLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C7D6325AADE44C31FEC0A7 /* SuryaHTMLParserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F121039412FF97811EA4DAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51F697F74752DD96B512F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45575F6341CCD561ED52EB49;
+			remoteInfo = SuryaStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAE004947374741CA63B7DBE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4756AEFB2F8B7481CCEFAEC7 /* llama.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04D5E4D0DD482B52D9F08597 /* SuryaBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SuryaBridge.h; sourceTree = "<group>"; };
+		0CE6DBFC05582B8527552BAD /* SuryaStudy-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuryaStudy-Bridging-Header.h"; sourceTree = "<group>"; };
+		0CE729308C953655C8302474 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E7C0F0638203F0DEB40C1EA /* Models */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		0FFB6CE1E6159795309247A1 /* SuryaStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuryaStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BBEDA36F5DCAFF9C1971C6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24347C2AE1890D3194C6AD99 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		34C9E6CD3B365F9BC5CB09C5 /* SuryaStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuryaStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		380DE5F3E44488083EAD7288 /* SuryaStudyApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SuryaStudyApp.swift; sourceTree = "<group>"; };
+		3F01967383EA4849F36128A0 /* PDFRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFRenderer.swift; sourceTree = "<group>"; };
+		460F3587E379CFAB190405A0 /* SuryaBridge.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = SuryaBridge.cpp; sourceTree = "<group>"; };
+		46DC320041F3A213087AA997 /* llama.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = llama.xcframework; sourceTree = "<group>"; };
+		4B2D07D23C9E65E6CAE69C4A /* Licenses */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = Licenses; sourceTree = "<group>"; };
+		631191BEF9AED0360E050727 /* NativeOCRService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeOCRService.swift; sourceTree = "<group>"; };
+		807AD63EC7A3BE7E84E8BD1A /* StudyStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudyStore.swift; sourceTree = "<group>"; };
+		9F07FA5494A80DCD8F0D783E /* SampleDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SampleDocument.swift; sourceTree = "<group>"; };
+		B087A8113362BB0014676DA5 /* SuryaHTMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SuryaHTMLParser.swift; sourceTree = "<group>"; };
+		D6C7D6325AADE44C31FEC0A7 /* SuryaHTMLParserTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SuryaHTMLParserTests.swift; sourceTree = "<group>"; };
+		E0A182D4F78EC4F44E5DB9AB /* SuryaStudy.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = SuryaStudy.entitlements; sourceTree = "<group>"; };
+		F66B80B4BC632837F500DABF /* PDFReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFReaderView.swift; sourceTree = "<group>"; };
+		F96F1E8389BF72E0FC1AA5C6 /* OCRModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OCRModels.swift; sourceTree = "<group>"; };
+		FA7A602D521164A5C77440DE /* PDFRendererTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFRendererTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75804AF3C6AA4A8C2B852DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B3683F9A5DA7B2A1E902D1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD47CA04B55976D6DE8FDC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE830A53B6D2345968F70B3 /* Cocoa.framework in Frameworks */,
+				4998F1C43F7D39F12FC73E7B /* llama.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0614B940E06D38486F067582 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0CE729308C953655C8302474 /* ContentView.swift */,
+				631191BEF9AED0360E050727 /* NativeOCRService.swift */,
+				F66B80B4BC632837F500DABF /* PDFReaderView.swift */,
+				9F07FA5494A80DCD8F0D783E /* SampleDocument.swift */,
+				807AD63EC7A3BE7E84E8BD1A /* StudyStore.swift */,
+				0CE6DBFC05582B8527552BAD /* SuryaStudy-Bridging-Header.h */,
+				380DE5F3E44488083EAD7288 /* SuryaStudyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		08FA23E94D6BA550647FE522 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A602D521164A5C77440DE /* PDFRendererTests.swift */,
+				D6C7D6325AADE44C31FEC0A7 /* SuryaHTMLParserTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4114FA2FC95388DB32E2EDF5 = {
+			isa = PBXGroup;
+			children = (
+				75DF7247714CF3D0CB81460A /* Products */,
+				EBBC6969CB963902A8008577 /* Frameworks */,
+				0614B940E06D38486F067582 /* App */,
+				DF6E40C124E6AA635EB65FAB /* Core */,
+				B51C4A9E8332E6256E2E31D8 /* Runtime */,
+				ECF9A29B227DD603397FEAB2 /* Resources */,
+				0E7C0F0638203F0DEB40C1EA /* Models */,
+				F90552290967FF42E9E6747D /* Vendor */,
+				08FA23E94D6BA550647FE522 /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		75AB33B14CC3178FA1929BE4 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				24347C2AE1890D3194C6AD99 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		75DF7247714CF3D0CB81460A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C9E6CD3B365F9BC5CB09C5 /* SuryaStudy.app */,
+				0FFB6CE1E6159795309247A1 /* SuryaStudyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51C4A9E8332E6256E2E31D8 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				460F3587E379CFAB190405A0 /* SuryaBridge.cpp */,
+				04D5E4D0DD482B52D9F08597 /* SuryaBridge.h */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		DF6E40C124E6AA635EB65FAB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F96F1E8389BF72E0FC1AA5C6 /* OCRModels.swift */,
+				3F01967383EA4849F36128A0 /* PDFRenderer.swift */,
+				B087A8113362BB0014676DA5 /* SuryaHTMLParser.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EBBC6969CB963902A8008577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75AB33B14CC3178FA1929BE4 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECF9A29B227DD603397FEAB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BBEDA36F5DCAFF9C1971C6D /* Info.plist */,
+				E0A182D4F78EC4F44E5DB9AB /* SuryaStudy.entitlements */,
+				4B2D07D23C9E65E6CAE69C4A /* Licenses */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F90552290967FF42E9E6747D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				46DC320041F3A213087AA997 /* llama.xcframework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45575F6341CCD561ED52EB49 /* SuryaStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174AE003F2FCC6B81DBC750C /* Build configuration list for PBXNativeTarget "SuryaStudy" */;
+			buildPhases = (
+				5E3F3872ED0EAF92A5D67FB7 /* Sources */,
+				FD47CA04B55976D6DE8FDC3B /* Frameworks */,
+				DDFB4BFAE90C48DDD5FEB735 /* Resources */,
+				CAE004947374741CA63B7DBE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuryaStudy;
+			productName = SuryaStudy;
+			productReference = 34C9E6CD3B365F9BC5CB09C5 /* SuryaStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE033C350D44ED23A19A54E4 /* SuryaStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B04367BDD3FB6DAD1A6667B /* Build configuration list for PBXNativeTarget "SuryaStudyTests" */;
+			buildPhases = (
+				A0543F1C67EC8557B1BC4619 /* Sources */,
+				F75804AF3C6AA4A8C2B852DB /* Frameworks */,
+				EDDBB98D8F09A5C7CA133AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B98C75DB2CEF4E7E420C6B /* PBXTargetDependency */,
+			);
+			name = SuryaStudyTests;
+			productName = SuryaStudyTests;
+			productReference = 0FFB6CE1E6159795309247A1 /* SuryaStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51F697F74752DD96B512F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 571E84AE23AE3BD49BA8ADAE /* Build configuration list for PBXProject "SuryaStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				en,
+				Base,
+			);
+			mainGroup = 4114FA2FC95388DB32E2EDF5;
+			productRefGroup = 75DF7247714CF3D0CB81460A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45575F6341CCD561ED52EB49 /* SuryaStudy */,
+				CE033C350D44ED23A19A54E4 /* SuryaStudyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFB4BFAE90C48DDD5FEB735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B025ED0ABAD735D8B928A0C /* Licenses in Resources */,
+				1B57680E3EB14D2867D1D39D /* Models in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDBB98D8F09A5C7CA133AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E3F3872ED0EAF92A5D67FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE0D3017BF3CA0752A854F1 /* ContentView.swift in Sources */,
+				6B12BB5E8E84807F2A0E980E /* NativeOCRService.swift in Sources */,
+				97B4F697A4A48F2E9EE96FA9 /* PDFReaderView.swift in Sources */,
+				2DD0CD07F7DD7FCCDAC5F894 /* SampleDocument.swift in Sources */,
+				D1E73688070355FCBEC68D73 /* StudyStore.swift in Sources */,
+				33CDBA9F2738767D17C72C26 /* SuryaStudyApp.swift in Sources */,
+				C34D1155684716F2F06411D3 /* OCRModels.swift in Sources */,
+				B5D47A6E3EA749373688BE77 /* PDFRenderer.swift in Sources */,
+				9D6D9C0048870D2A7AAB9EBE /* SuryaHTMLParser.swift in Sources */,
+				4EDCAA255BCFA0FF41E64E4E /* SuryaBridge.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0543F1C67EC8557B1BC4619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEFA08A1A753672868B8548 /* PDFRendererTests.swift in Sources */,
+				EA594A2E9391A13212841A50 /* SuryaHTMLParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1B98C75DB2CEF4E7E420C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuryaStudy;
+			target = 45575F6341CCD561ED52EB49 /* SuryaStudy */;
+			targetProxy = F121039412FF97811EA4DAAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F85AB9F8234DB5E3D255A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		597AFD03EF27FECEA2372217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/SuryaStudy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 7HK4Z95VZD;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/llama.xcframework/macos-arm64_x86_64",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.swiftstudy.SuryaStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/App/SuryaStudy-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6460303BDF063CE675EB37FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		908B80CBC36BBB6C890206B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.swiftstudy.SuryaStudyTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuryaStudy.app/Contents/MacOS/SuryaStudy";
+			};
+			name = Debug;
+		};
+		C3A2566FF77FBB7ADD42D866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/SuryaStudy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 7HK4Z95VZD;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/llama.xcframework/macos-arm64_x86_64",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.swiftstudy.SuryaStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/App/SuryaStudy-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CB1AC7B7BC015F917A866FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.swiftstudy.SuryaStudyTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuryaStudy.app/Contents/MacOS/SuryaStudy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174AE003F2FCC6B81DBC750C /* Build configuration list for PBXNativeTarget "SuryaStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597AFD03EF27FECEA2372217 /* Release */,
+				C3A2566FF77FBB7ADD42D866 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B04367BDD3FB6DAD1A6667B /* Build configuration list for PBXNativeTarget "SuryaStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1AC7B7BC015F917A866FCB /* Release */,
+				908B80CBC36BBB6C890206B1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571E84AE23AE3BD49BA8ADAE /* Build configuration list for PBXProject "SuryaStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6460303BDF063CE675EB37FE /* Debug */,
+				0F85AB9F8234DB5E3D255A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A51F697F74752DD96B512F3E /* Project object */;
+}

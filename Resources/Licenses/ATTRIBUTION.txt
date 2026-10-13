@@ -1,0 +1,22 @@
+SuryaStudy third-party notices
+
+This application uses llama.cpp by Georgi Gerganov and contributors.
+Version: b11429 / d81235049384534c167caea52b85a694f6103d14
+Source: https://github.com/ggml-org/llama.cpp
+License: MIT; see llama.cpp-LICENSE.txt.
+
+The document recognition model is Surya 2 by Datalab.
+Model: https://huggingface.co/datalab-to/surya-ocr-2-gguf
+Model revision: 6a3a4c30e5e74446d4f8b6afd05b2f2da970f470
+The downloaded GGUF model and projector are unmodified.
+License: modified AI PUBS OPEN RAIL-M; see Surya-MODEL_LICENSE.txt.
+
+The native integration uses the full-page OCR prompt and single-user input
+format from Surya, adapted to run through llama.cpp's native C API.
+Source: https://github.com/datalab-to/surya
+Source revision: a2363d3311773a2b6145a40458043211c50c52f4
+Source-code license: Apache License 2.0; see Surya-LICENSE.txt.
+
+This project is independent and is not endorsed by Datalab or llama.cpp authors.
+Including these notices does not replace the model license's requirements for
+end-user terms, attribution, permitted use, and distribution.

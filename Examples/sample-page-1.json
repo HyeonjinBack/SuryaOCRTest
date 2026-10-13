@@ -1,0 +1,118 @@
+{
+  "blocks" : [
+    {
+      "bbox" : [
+        81,
+        71,
+        552,
+        103
+      ],
+      "html" : "<h1>Surya Local OCR Check</h1>",
+      "id" : "page-0-block-0",
+      "label" : "Section-Header",
+      "text" : "Surya Local OCR Check"
+    },
+    {
+      "bbox" : [
+        81,
+        131,
+        489,
+        149
+      ],
+      "html" : "<p>Synthetic research document · SwiftStudy</p>",
+      "id" : "page-0-block-1",
+      "label" : "Text",
+      "text" : "Synthetic research document · SwiftStudy"
+    },
+    {
+      "bbox" : [
+        81,
+        207,
+        217,
+        229
+      ],
+      "html" : "<h2>Abstract</h2>",
+      "id" : "page-0-block-2",
+      "label" : "Section-Header",
+      "text" : "Abstract"
+    },
+    {
+      "bbox" : [
+        81,
+        257,
+        844,
+        329
+      ],
+      "html" : "<p>This document verifies local document recognition on a Mac. The application renders a PDF page and sends the image to an embedded model. No document is uploaded to an external service.</p>",
+      "id" : "page-0-block-3",
+      "label" : "Text",
+      "text" : "This document verifies local document recognition on a Mac. The application renders a PDF page and sends the image to an embedded model. No document is uploaded to an external service."
+    },
+    {
+      "bbox" : [
+        81,
+        426,
+        200,
+        449
+      ],
+      "html" : "<h2>Method</h2>",
+      "id" : "page-0-block-4",
+      "label" : "Section-Header",
+      "text" : "Method"
+    },
+    {
+      "bbox" : [
+        81,
+        477,
+        913,
+        548
+      ],
+      "html" : "<p>The pipeline uses PDFKit, llama.cpp, and Surya. It preserves text blocks and their positions so the original page can be checked alongside the extracted text.</p>",
+      "id" : "page-0-block-5",
+      "label" : "Text",
+      "text" : "The pipeline uses PDFKit, llama.cpp, and Surya. It preserves text blocks and their positions so the original page can be checked alongside the extracted text."
+    },
+    {
+      "bbox" : [
+        81,
+        632,
+        181,
+        654
+      ],
+      "html" : "<h2>Result</h2>",
+      "id" : "page-0-block-6",
+      "label" : "Section-Header",
+      "text" : "Result"
+    },
+    {
+      "bbox" : [
+        81,
+        682,
+        878,
+        728
+      ],
+      "html" : "<p>Verification code: SURYA-2026. The expected value is 42. This synthetic example makes no scientific claims.</p>",
+      "id" : "page-0-block-7",
+      "label" : "Text",
+      "text" : "Verification code: SURYA-2026. The expected value is 42. This synthetic example makes no scientific claims."
+    },
+    {
+      "bbox" : [
+        83,
+        926,
+        98,
+        942
+      ],
+      "html" : "<p>1</p>",
+      "id" : "page-0-block-8",
+      "label" : "Page-Footer",
+      "text" : "1"
+    }
+  ],
+  "coordinateSpace" : "normalized_0_1000_top_left",
+  "elapsedSeconds" : 9.39991807937622,
+  "imageHeight" : 1684,
+  "imageWidth" : 1190,
+  "pageIndex" : 0,
+  "rawHTML" : "<div data-bbox=\"81 71 552 103\" data-label=\"Section-Header\"><h1>Surya Local OCR Check</h1></div><div data-bbox=\"81 131 489 149\" data-label=\"Text\"><p>Synthetic research document · SwiftStudy</p></div><div data-bbox=\"81 207 217 229\" data-label=\"Section-Header\"><h2>Abstract</h2></div><div data-bbox=\"81 257 844 329\" data-label=\"Text\"><p>This document verifies local document recognition on a Mac. The application renders a PDF page and sends the image to an embedded model. No document is uploaded to an external service.</p></div><div data-bbox=\"81 426 200 449\" data-label=\"Section-Header\"><h2>Method</h2></div><div data-bbox=\"81 477 913 548\" data-label=\"Text\"><p>The pipeline uses PDFKit, llama.cpp, and Surya. It preserves text blocks and their positions so the original page can be checked alongside the extracted text.</p></div><div data-bbox=\"81 632 181 654\" data-label=\"Section-Header\"><h2>Result</h2></div><div data-bbox=\"81 682 878 728\" data-label=\"Text\"><p>Verification code: SURYA-2026. The expected value is 42. This synthetic example makes no scientific claims.</p></div><div data-bbox=\"83 926 98 942\" data-label=\"Page-Footer\"><p>1</p></div>"
+}
